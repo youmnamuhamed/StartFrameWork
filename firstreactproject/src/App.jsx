@@ -11,7 +11,9 @@ import Contact from "./Components/Contact/Contact"
 
 let route = createBrowserRouter([
   {
-    path: "",
+     
+    path: "/StartFrameWork",
+    
     element: <Layout />,
     children: [
       { index: true, element: <Home /> },
