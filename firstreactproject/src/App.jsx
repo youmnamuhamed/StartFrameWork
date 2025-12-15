@@ -15,9 +15,9 @@ let route = createBrowserRouter([
     element: <Layout />,
     children: [
       { index: true, element: <Home /> },
-      {path: "About", element: <About/>},
-      {path: "Portfolio", element: <Portfolio/>},
-      {path: "Contact", element: <Contact/>},
+      {path: "/About", element: <About/>},
+      {path: "/Portfolio", element: <Portfolio/>},
+      {path: "/Contact", element: <Contact/>},
     ],
   },
 ]);
